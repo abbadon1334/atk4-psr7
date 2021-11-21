@@ -1,0 +1,28 @@
+{
+    "name": "abbadon1334/nemesi",
+    "description": "Nemesi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abbadon1334",
+            "email": "fdanti@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4",
+        "atk4/ui": "dev-develop",
+        "laminas/laminas-diactoros": "^2.8",
+        "laminas/laminas-httphandlerrunner": "^2.1",
+        "slim/slim": "^4.9",
+        "php-di/slim-bridge": "^3.2",
+        "slim/psr7": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satyr\\" : "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
